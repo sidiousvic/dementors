@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "The Legend of Zelda NES";
+  src: url("../fonts/The-Legend-of-Zelda-NES.woff2") format("woff2"),
+    url("../fonts/The-Legend-of-Zelda-NES.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(78, 185, 227);
+  cursor: none;
+  overflow: hidden;
+}
+
+canvas {
+  position: absolute;
+  image-rendering: pixelated;
+}
+
+img {
+  image-rendering: crisp-edges;
+}
+
+p {
+  color: black;
+  font-size: 40;
+  font-family: The Legend of Zelda NES;
+}
+
+#score {
+  margin: 30px;
+  position: absolute;
+}
